@@ -6,6 +6,7 @@
 
 
 body{
+    
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -42,4 +43,40 @@ html{
 .container-header .nav ul li a{
     text-decoration: none;
     color: aliceblue;
+}
+
+/*===SECTION===*/
+
+.container-section{
+    display: flex;
+    text-align: center;
+    width: 1000px;
+
+}
+.container-section .titulo h1{
+    color: #fff;
+}
+.container-section .titulo p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.container-section .container-foto .img img{
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+}
+.container-section .container-foto{
+    display: flex;
+
+}
+.container-section .container-foto .img{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 20px 80px;
+background: rgba(0, 0, 0, 0.46);
+width: 600px;
+height: 400px;
+border-radius: 20px;
 }
