@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: #252525;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container-header header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #780101;
+    width: 100%;
+
+}
+.container-header .logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+.container-header .nav ul li{
+    
+    list-style: none;
+    color: aliceblue;
+}
+.container-header .nav ul{
+    display: flex;
+    gap: 50px;
+    padding: 15px;
+   
+    
+}
+.container-header .nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+
+.producto .product-item {
+    display: grid; 
+    gap: 0px; 
+    max-width: 700px;
+    margin: 0 100px;
+    margin-top: 45px;
+    grid-template-columns: repeat(3,1fr);     
+}
+
+.producto .producto1 {
+    width: 450px;
+    height: 400px;
+    border-radius: 15px;
+    margin: 15px 15px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.producto .producto2{
+    width: 450px;
+    height: 400px;
+    border-radius: 15px;
+    margin: 15px 15px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+img{
+    width: 300px;
+    height: 250px;
+}
+
+
+.titulo{
+    font-family: 'righteous' cursive;
+    color: #780101;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+
+
+.producto .button {
+    border-radius: 100px;
+    background-color: #780101;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 270px;
+    transition: transform 0.3s;
+    display: block;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background: #780101;
+}
