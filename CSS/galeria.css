@@ -2,6 +2,12 @@
     color: rgb(251, 246, 196);
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.titulo:hover{
+    transform: scale(1.2);
+    transition: .5s;
 }
 
 body {
@@ -38,6 +44,14 @@ body {
     color: rgb(251, 246, 196);
 }
 
+.container-header .nav ul li a:hover{
+    color: rgb(0, 0, 0);
+    transition: .3s;
+    border-radius: 35px;
+    background: rgb(251, 246, 196);
+    padding: 10px;
+}
+
 img {
     width: 360px;
     height: 300px;
@@ -60,6 +74,8 @@ img:hover {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin-top: 8px;
+    align-items: center;
+    margin-left: 50px;
 }
 
 .underline {
@@ -72,4 +88,453 @@ img:hover {
     cursor: pointer;
     transition: o.5s ease;
     border-radius: 2px;
+    
+}
+
+.imagen1{
+    background: rgba(0, 0, 0, 0.575) url(../IMG/IMG.G1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.imagen1:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    background: linear-gradient(rgba(0, 0, 0, 0.884)), url(../IMG/IMG.G1.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+/* imagen 1*/
+.imagen1 p{
+    color: rgb(251, 246, 196);
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+
+.imagen1 p:hover{
+    transition: .3s;
+    transform: scale(1.8);
+
+}
+
+/* imagen 2*/
+.imagen2{
+    background: rgba(0, 0, 0, 0.575) url(../IMG/IMG.G2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.imagen2:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    background: linear-gradient(rgba(0, 0, 0, 0.884)), url(../IMG/IMG.G2.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.imagen2 p{
+    color: rgb(251, 246, 196);
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+
+.imagen2 p:hover{
+    transition: .3s;
+    transform: scale(1.8);
+}
+
+/* imagen 3*/
+
+.imagen3{
+    background: rgba(0, 0, 0, 0.575) url(../IMG/IMG.G3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.imagen3:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    background: linear-gradient(rgba(0, 0, 0, 0.884)), url(../IMG/IMG.G3.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.imagen3 p{
+    color: rgb(251, 246, 196);
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+
+.imagen3 p:hover{
+    transition: .3s;
+    transform: scale(1.8);
+}
+
+/* imagen 4*/
+
+.imagen4{
+    background: rgba(0, 0, 0, 0.575) url(../IMG/IMG.G4.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 360px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.imagen4:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    background: linear-gradient(rgba(0, 0, 0, 0.884)), url(../IMG/IMG.G4.jpeg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.imagen4 p{
+    color: rgb(251, 246, 196);
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+
+.imagen4 p:hover{
+    transition: .3s;
+    transform: scale(1.8);
+}
+
+/* imagen 5*/
+
+.imagen5{
+    background: rgba(0, 0, 0, 0.575) url(../IMG/IMG.G5.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.imagen5:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    background: linear-gradient(rgba(0, 0, 0, 0.884)), url(../IMG/IMG.G5.jpeg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.imagen5 p{
+    color: rgb(251, 246, 196);
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+
+.imagen5 p:hover{
+    transition: .3s;
+    transform: scale(1.8);
+}
+
+/* imagen 6*/
+
+.imagen6{
+    background: rgba(0, 0, 0, 0.575) url(../IMG/IMG.G11.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.imagen6:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    background: linear-gradient(rgba(0, 0, 0, 0.884)), url(../IMG/IMG.G11.jpeg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.imagen6 p{
+    color: rgb(251, 246, 196);
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+
+.imagen6 p:hover{
+    transition: .3s;
+    transform: scale(1.8);
+}
+
+/* imagen 7*/
+
+.imagen7{
+    background: rgba(0, 0, 0, 0.575) url(../IMG/IMG.G7.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.imagen7:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    background: linear-gradient(rgba(0, 0, 0, 0.884)), url(../IMG/IMG.G7.jpeg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.imagen7 p{
+    color: rgb(251, 246, 196);
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+
+.imagen7 p:hover{
+    transition: .3s;
+    transform: scale(1.8);
+}
+
+
+/* imagen 8*/
+
+.imagen8{
+    background: rgba(0, 0, 0, 0.575) url(../IMG/IMG.G8.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.imagen8:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    background: linear-gradient(rgba(0, 0, 0, 0.884)), url(../IMG/IMG.G8.jpeg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.imagen8 p{
+    color: rgb(251, 246, 196);
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+
+.imagen8 p:hover{
+    transition: .3s;
+    transform: scale(1.8);
+}
+
+/* imagen 9*/
+
+.imagen9{
+    background: rgba(0, 0, 0, 0.575) url(../IMG/IMG.G9.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.imagen9:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    background: linear-gradient(rgba(0, 0, 0, 0.884)), url(../IMG/IMG.G9.jpeg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.imagen9 p{
+    color: rgb(251, 246, 196);
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+
+.imagen9 p:hover{
+    transition: .3s;
+    transform: scale(1.8);
+}
+
+/* imagen 10*/
+
+.imagen10{
+    background: rgba(0, 0, 0, 0.575) url(../IMG/IMG.G10.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.imagen10:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    background: linear-gradient(rgba(0, 0, 0, 0.884)), url(../IMG/IMG.G10.jpeg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.imagen10 p{
+    color: rgb(251, 246, 196);
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+
+.imagen10 p:hover{
+    transition: .3s;
+    transform: scale(1.8);
+}
+
+
+/* imagen 11*/
+
+.imagen11{
+    background: rgba(0, 0, 0, 0.575) url(../IMG/IMG.G12.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.imagen11:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    background: linear-gradient(rgba(0, 0, 0, 0.884)), url(../IMG/IMG.G12.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.imagen11 p{
+    color: rgb(251, 246, 196);
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+
+.imagen11 p:hover{
+    transition: .3s;
+    transform: scale(1.8);
+}
+
+/* imagen 12*/
+
+.imagen12{
+    background: rgba(0, 0, 0, 0.575) url(../IMG/IMG.G13.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.imagen12:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    background: linear-gradient(rgba(0, 0, 0, 0.884)), url(../IMG/IMG.G13.jpeg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.imagen12 p{
+    color: rgb(251, 246, 196);
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+
+.imagen12 p:hover{
+    transition: .3s;
+    transform: scale(1.8);
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.container-header .nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    margin-left: 20px;
 }
