@@ -1,8 +1,15 @@
 body{
+    
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background: #252525;
+    background: linear-gradient(to top, rgba(30, 35, 38, 0.344), rgba(30,35,38,1)),
+    url(../IMG/Logo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
 }
 html{
     scroll-behavior: smooth;
@@ -13,11 +20,13 @@ html{
     align-items: center;
     background: #780101;
     width: 100%;
+    height: 70px;
 
 }
 .container-header .logo img{
-    width: 80px;
-    height: 80px;
+    margin-top: 3px;
+    width: 70px;
+    height: 70px;
     border-radius: 50px;
 }
 .container-header .nav ul li{
@@ -33,13 +42,14 @@ html{
     
 }
 .container-header .nav ul li a{
+    font-family: sans-serif;
     text-decoration: none;
     color: aliceblue;
+    font-size: 20px;
+    transition: 0.3s;
 }
-
-.producto h1{
-    text-align: center;
-    color: #fff;
+.container-header .nav ul li a:hover{
+    color: black;
 }
 
 /*====Section===*/
@@ -57,7 +67,14 @@ html{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 100px;
+    
 }
+
+.producto h1{
+    color: #780101;
+    font-size: 50px;
+}
+
 .product-item{
     display: flex;
     flex-direction: column;
@@ -68,6 +85,11 @@ html{
     height: 300px;
     gap: 20px;
     border-radius: 20px;
+}
+
+.product-item:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
 }
 .product-item img{
     width: 200px;
@@ -98,4 +120,40 @@ html{
 .product-item .button:hover{
     transform: scale(1.2);
 }
+<<<<<<< HEAD
 >>>>>>> dafea5be9e70d8242722d18003297728d5d04517
+=======
+
+/*===footer===*/
+.redes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: #780101;
+    align-items: center;
+    height: 60px;
+    margin-top: 430px;
+}
+.redes a{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    transition: 0.3s;
+}
+.redes a:hover{
+    color: black;
+}
+
+@media (max-width: 768px){
+    .producto1 {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 10px;
+        justify-items: center;
+    }
+    .product-item {
+        width: 90vw;
+        max-width: 350px;
+        height: auto;
+    }
+>>>>>>> 7c2cf071225f7f69a2074fbbc63b8851b0f4593c
