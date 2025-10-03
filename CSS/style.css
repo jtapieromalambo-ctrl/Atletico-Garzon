@@ -43,9 +43,14 @@ html{
     
 }
 .container-header .nav ul li a{
+    font-family: sans-serif;
     text-decoration: none;
     color: aliceblue;
     font-size: 20px;
+    transition: 0.3s;
+}
+.container-header .nav ul li a:hover{
+    color: black;
 }
 
 /*===SECTION===*/
